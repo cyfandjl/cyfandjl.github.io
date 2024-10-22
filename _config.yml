@@ -22,9 +22,9 @@ repository               : "cyfandjl/cyfandjl.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Ph.D student"
+  name             : "Lan Jin"
   pronouns         : # example: "she/her"  
-  # bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D student"
   location         : "Michigan"
   employer         : "Michigan State University"
   uri              : # URL
