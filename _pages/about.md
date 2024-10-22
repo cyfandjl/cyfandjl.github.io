@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Current interest/research
+======
+I'm a Ph.D student in my third year at Electrical and Computer department of Michigan State University. My reserach is focusing on Theoretical Studies on Ultrafast and Nanoscale Electron Emission and Transport. Currently, we are studying the effect of frequency spectra of different profiles laser field on photoemission. Electron sources are critical to many applications such as X-ray generation, electron microscopy, accerlarator and nanoscale vacuum devices. We have studied direct density modulation of electron beam from the emission, which is applicable on many vacuum devices, such as traveling wave tubes.
 
 A data-driven personal website
 ======
