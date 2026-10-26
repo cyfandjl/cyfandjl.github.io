@@ -1,23 +1,24 @@
 ---
-layout: archive
+layout: research
 title: "Publications"
 permalink: /publications/
-author_profile: true
+description: "Lan Jin's publications in quantum electron emission, computational plasma physics, scientific machine learning, and ultracold atoms."
 ---
-
-<p>Peer-reviewed publications. See also <a href="https://scholar.google.com/citations?user=OWH-8-QAAAAJ">Google Scholar</a>.</p>
-<h2>Scientific machine learning</h2>
-<ol>
-<li><p>Chu, Y., Lin, G., Zhang, J. A., Xue, L., Li, W., Shin, H. H., Deng, M., Zhang, D., Guo, H., Wang, Z., and Jin, L. Surface-constrained reconstruction of spatiotemporal turbulence dissipation in the convective boundary layer using physics-guided machine learning. Journal of Geophysical Research: Atmospheres 131, e2026JD047285 (2026). <a href="https://doi.org/10.1029/2026JD047285">Publisher and DOI</a></p></li>
-<li><p>Chu, Y., Lin, G., Zhang, J. A., Xue, L., Li, W., Shin, H. H., Deng, M., Zhang, D., Guo, H., Li, Z., and Jin, L. A Physically-Guided and Stage-Wise Machine Learning Framework for Mixing Layer Height Retrieval Based on Doppler Lidar Observations. Advances in Atmospheric Sciences (2026). <a href="https://doi.org/10.1007/s00376-026-6100-y">Publisher and DOI</a></p></li>
-</ol>
-<h2>Computational plasma physics and electron emission</h2>
-<ol>
-<li><p>Iqbal, A., Heri, Y., Wang, B., Jin, L., Faisal, M. A., and Zhang, P. &quot;PASCHEN-1D: A one-dimensional fluid plasma solver with multi-mechanism surface emission and flexible external circuit coupling.&quot; Computer Physics Communications 329, 110404 (2026). <a href="https://doi.org/10.1016/j.cpc.2026.110404">Publisher and DOI</a></p></li>
-<li><p>Jin, L., and Zhang, P. &quot;Enhanced quantum efficiency in photoemission driven by few-cycle optical fields.&quot; Physical Review Research 8, 013035 (2026). <a href="https://doi.org/10.1103/zhd1-5d6q">Publisher and DOI</a></p></li>
-<li><p>Jin, L., Zhou, Y., and Zhang, P. &quot;Direct density modulation of photo-assisted field emission from an RF cold cathode.&quot; Journal of Applied Physics 134, 074904 (2023). <a href="https://doi.org/10.1063/5.0156328">Publisher and DOI</a></p></li>
-</ol>
-<h2>Ultracold atoms</h2>
-<ol>
-<li><p>Yang, J.-L., Long, Y., Gao, W.-W., Jin, L., Zuo, Z.-C., and Wang, R.-Q. &quot;Enhanced loading of 40K from a natural-abundance potassium source with a high-performance 2D+ MOT.&quot; Chinese Physics Letters 35, 033701 (2018). <a href="https://doi.org/10.1088/0256-307X/35/3/033701">Publisher and DOI</a></p></li>
-</ol>
+<p class="eyebrow">Research record</p>
+<h1>Publications</h1>
+<p class="page-intro">Quantum electron emission and computational plasma physics, with collaborative work in physics-guided machine learning.</p>
+<div class="intro-links"><a href="https://scholar.google.com/citations?user=OWH-8-QAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a><a href="{{ '/files/Lan_Jin_Academic_CV_EN.pdf' | relative_url }}">Full academic CV <span aria-hidden="true">↓</span></a></div>
+<div class="filter-bar" role="group" aria-label="Filter publications by research area">
+  <button type="button" class="filter-button" data-topic-filter="all" aria-pressed="true">All work <span>6</span></button>
+  <button type="button" class="filter-button" data-topic-filter="plasma" aria-pressed="false">Plasma &amp; emission <span>3</span></button>
+  <button type="button" class="filter-button" data-topic-filter="ml" aria-pressed="false">Machine learning <span>2</span></button>
+  <button type="button" class="filter-button" data-topic-filter="atomic" aria-pressed="false">Ultracold atoms <span>1</span></button>
+</div>
+<p class="results-note" id="publication-count" aria-live="polite">Showing 6 of 6 publications</p>
+{% for topic in site.data.lan_research_topics %}
+<section class="publication-group" data-publication-group="{{ topic.id }}" aria-labelledby="group-{{ topic.id }}">
+  <header class="group-header"><h2 id="group-{{ topic.id }}">{{ topic.title }}</h2><p>{{ topic.description }}</p></header>
+  {% for paper in site.data.lan_publications %}{% if paper.topic == topic.id %}{% include lan-publication.html %}{% endif %}{% endfor %}
+</section>
+{% endfor %}
+<aside class="record-note"><p>My name is highlighted in each author list. First-author articles are marked. See the linked publisher records for the original publications.</p></aside>

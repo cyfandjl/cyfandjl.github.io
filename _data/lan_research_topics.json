@@ -1,0 +1,17 @@
+[
+  {
+    "id": "plasma",
+    "title": "Plasma physics and electron emission",
+    "description": "Quantum emission, gas discharge, and circuit-coupled plasma simulation."
+  },
+  {
+    "id": "ml",
+    "title": "Scientific machine learning",
+    "description": "Collaborative work on physics-guided learning for atmospheric observations."
+  },
+  {
+    "id": "atomic",
+    "title": "Ultracold atoms",
+    "description": "Earlier experimental work on laser cooling and atom trapping."
+  }
+]

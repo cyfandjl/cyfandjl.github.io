@@ -1,0 +1,113 @@
+[
+  {
+    "id": "few-cycle",
+    "topic": "plasma",
+    "year": 2026,
+    "first": true,
+    "title": "Enhanced quantum efficiency in photoemission driven by few-cycle optical fields",
+    "authors": [
+      "Jin, L.",
+      "Zhang, P."
+    ],
+    "journal": "Physical Review Research",
+    "details": "8, 013035",
+    "doi": "10.1103/zhd1-5d6q"
+  },
+  {
+    "id": "paschen",
+    "topic": "plasma",
+    "year": 2026,
+    "first": false,
+    "title": "PASCHEN-1D: A one-dimensional fluid plasma solver with multi-mechanism surface emission and flexible external circuit coupling",
+    "authors": [
+      "Iqbal, A.",
+      "Heri, Y.",
+      "Wang, B.",
+      "Jin, L.",
+      "Faisal, M. A.",
+      "Zhang, P."
+    ],
+    "journal": "Computer Physics Communications",
+    "details": "329, 110404",
+    "doi": "10.1016/j.cpc.2026.110404"
+  },
+  {
+    "id": "rf-cathode",
+    "topic": "plasma",
+    "year": 2023,
+    "first": true,
+    "title": "Direct density modulation of photo-assisted field emission from an RF cold cathode",
+    "authors": [
+      "Jin, L.",
+      "Zhou, Y.",
+      "Zhang, P."
+    ],
+    "journal": "Journal of Applied Physics",
+    "details": "134, 074904",
+    "doi": "10.1063/5.0156328"
+  },
+  {
+    "id": "turbulence",
+    "topic": "ml",
+    "year": 2026,
+    "first": false,
+    "title": "Surface-constrained reconstruction of spatiotemporal turbulence dissipation in the convective boundary layer using physics-guided machine learning",
+    "authors": [
+      "Chu, Y.",
+      "Lin, G.",
+      "Zhang, J. A.",
+      "Xue, L.",
+      "Li, W.",
+      "Shin, H. H.",
+      "Deng, M.",
+      "Zhang, D.",
+      "Guo, H.",
+      "Wang, Z.",
+      "Jin, L."
+    ],
+    "journal": "Journal of Geophysical Research: Atmospheres",
+    "details": "131, e2026JD047285",
+    "doi": "10.1029/2026JD047285"
+  },
+  {
+    "id": "mixing-layer",
+    "topic": "ml",
+    "year": 2026,
+    "first": false,
+    "title": "A Physically-Guided and Stage-Wise Machine Learning Framework for Mixing Layer Height Retrieval Based on Doppler Lidar Observations",
+    "authors": [
+      "Chu, Y.",
+      "Lin, G.",
+      "Zhang, J. A.",
+      "Xue, L.",
+      "Li, W.",
+      "Shin, H. H.",
+      "Deng, M.",
+      "Zhang, D.",
+      "Guo, H.",
+      "Li, Z.",
+      "Jin, L."
+    ],
+    "journal": "Advances in Atmospheric Sciences",
+    "details": "",
+    "doi": "10.1007/s00376-026-6100-y"
+  },
+  {
+    "id": "potassium",
+    "topic": "atomic",
+    "year": 2018,
+    "first": false,
+    "title": "Enhanced loading of 40K from a natural-abundance potassium source with a high-performance 2D+ MOT",
+    "authors": [
+      "Yang, J.-L.",
+      "Long, Y.",
+      "Gao, W.-W.",
+      "Jin, L.",
+      "Zuo, Z.-C.",
+      "Wang, R.-Q."
+    ],
+    "journal": "Chinese Physics Letters",
+    "details": "35, 033701",
+    "doi": "10.1088/0256-307X/35/3/033701"
+  }
+]
