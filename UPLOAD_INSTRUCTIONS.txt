@@ -1,0 +1,22 @@
+Lan Jin website update — prepared locally, not published
+
+Existing repository: cyfandjl/cyfandjl.github.io
+Publishing branch: master
+
+Upload the contents of this folder to the repository ROOT, preserving the
+_pages, _data and files folder structure. Do not upload the ZIP itself or an
+extra GitHub_Website_Upload parent folder. Do not upload this instructions file.
+
+The update contains five configuration/content files and four public PDF files.
+The existing design and portrait are retained. The navigation now shows About,
+Publications, and CV and Resumes. Unrelated existing repository files are retained.
+
+GitHub will rebuild the website automatically after the changes are committed
+to master because Pages already deploys from master/root.
+
+Alternatively, this local checkout contains the exact changes:
+github_website_update
+It can be reviewed and pushed after authenticated GitHub access is available.
+
+No immigration information, job-search tracker, reference requests or career
+plan is included in this public website update.

@@ -7,11 +7,11 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "Michigan"
-title                    : "Lan Jin / Personal page"
+locale: "en-US"
+title: "Lan Jin"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name: &name "Lan Jin"
+description: &description "Computational plasma physics, electron emission, fusion startup, and scientific machine learning."
 url                      : https://cyfandjl.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cyfandjl/cyfandjl.github.io"
@@ -24,17 +24,17 @@ author:
   avatar           : "profile.png"
   name             : "Lan Jin"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D student"
-  location         : "Michigan"
-  employer         : "Michigan State University"
+  bio: "Ph.D. candidate | Computational plasma physics and scientific ML"
+  location: "Ann Arbor, Michigan"
+  employer: "University of Michigan"
   uri              : # URL
-  email            : "jinlan1@msu.edu" 
+  email: "jinlan@umich.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=OWH-8-QAAAAJ&hl=zh-CN"
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid: "https://orcid.org/0009-0007-3941-7988"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/feed/"
+  linkedin: "lan-jin-58a8b81bb"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
